@@ -14,6 +14,6 @@
         <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
 
         <!--Definicja modeli-->
-        <mapping class="Baza_Danych_ZadDom.Pojazd"/>
+        <mapping class="org.example.Pojazd"/>
     </session-factory>
 </hibernate-configuration>

@@ -14,9 +14,9 @@ public class Main_Create_Insert {
         Transaction transaction = session.beginTransaction();
 
         Pojazd pojazd = Pojazd.builder()
-                .marka("Porsche")
-                .moc(98)
-                .kolor("Czerwony")
+                .marka("Maluch 125p")
+                .moc(25)
+                .kolor("Biały")
                 .rokProdukcji(2015)
                 .czyElektryczny(false)
                 .build();
